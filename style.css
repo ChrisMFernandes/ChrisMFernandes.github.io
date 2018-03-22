@@ -19,13 +19,13 @@ button {
     padding: 20px;
     text-align: center;
     font-size: 16px;
-    transition-duration: 0.4s;
-    transition: radial-out;
+    transition-duration: 0.8s;
 }
 
 button:hover {
 	background-color: #FFB000;
 	color: white;
+    transform: rotateZ(360deg);
 }
 
 .sidenav a {
