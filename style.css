@@ -1,0 +1,128 @@
+body, html {
+    height: 100%;
+    margin: 0;
+}
+
+h1 {
+	font-size: 35px;
+}
+
+p {
+	font-size: 25px;
+}
+
+button {
+	background-color: #555555;
+	border-radius: 8px;
+	border: none;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    font-size: 16px;
+    transition-duration: 0.4s;
+    transition: radial-out;
+}
+
+button:hover {
+	background-color: #FFB000;
+	color: white;
+}
+
+.sidenav a {
+	font-family: 'Work Sans', sans-serif;
+    position: absolute;
+    left: -120px;
+    transition: 0.3s;
+    padding: 12px;
+    width: 150px;
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    border-radius: 0 5px 5px 0;
+}
+
+.sidenav a:hover {
+    left: 0;
+}
+
+.image {
+    background-image: url("images/woods.jpeg");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.image-text {
+  	font-family: 'Work Sans', sans-serif;
+  	text-align: center;
+  	position: absolute;
+  	top: 50%;
+  	left: 50%;
+  	transform: translate(-50%, -50%);
+  	color: white;
+}
+
+.project-wrapper {
+	width: 1020px;
+	display: flex;
+	flex-wrap: nowrap;
+	justify-content: space-around;
+}
+
+#home-icon {
+	margin-left: 60px;
+}
+
+#about-icon {
+	margin-left: 60px;
+}
+
+#project-icon {
+	margin-left: 40px;
+}
+
+#github-icon {
+	margin-left: 55px;
+}
+
+#linkedin-icon {
+	margin-left: 40px;
+}
+
+#home {
+    top: 20px;
+    background-color: #FFB000;
+    opacity: .8;
+}
+
+#about {
+    top: 20px;
+    background-color: #FFB000;
+    opacity: .8;
+}
+
+#about-pro {
+    top: 80px;
+    background-color: #FFB000;
+    opacity: .8;
+}
+
+#projects {
+    top: 80px;
+    background-color: #FFB000;
+    opacity: .8;
+}
+
+#github {
+    top: 140px;
+    background-color: #FFB000;
+    opacity: .8;
+}
+
+#linkedin {
+	top: 200px;
+	background-color: #FFB000;
+    opacity: .8;
+}
