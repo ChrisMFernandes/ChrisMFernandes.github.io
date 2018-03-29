@@ -14,25 +14,31 @@
 				<a href="https://github.com/ChrisMFernandes" id="github" target="_blank">GitHub<i id="github-icon" class="fa fa-github fa-lg"></i></a>
 				<a href="https://www.linkedin.com/in/chrismfernandes" id="linkedin" target="_blank">LinkedIn<i id="linkedin-icon" class="fa fa-linkedin-square fa-lg"></i></a>
 			</div>
-			<div class="image-text">
-				<h1><b>App Projects</b></h1>
+				<div class="image-text">
+					<h1><b>App Projects</b></h1>
 					
 					<div class="project-wrapper">
-						<div id="perfectpantry">
-							<p id="perfectpantry-text">PerfectPantry</p>
-							<a href="https://github.com/ChrisMFernandes/perfectpantry">
-								<img src="images/perfectpantry.png">
-							</a>
-						</div>
-						<div id="perfectplan">
-							<p id="perfectplan-text">PerfectPlan</p>
-							<a href="https://github.com/skhoule/nycda-perfectplan">
-								<img src="images/perfectplan.png">
-							</a>
-						</div>
+							<div id="perfectpantry">
+								<p id="perfectpantry-text">PerfectPantry</p>
+								<img class="myImg" src="images/perfectpantry.png" alt="My PerfectPantry App!" data-name="PerfectPantry" data-description="An application built in Ruby on Rails and Bootstrap. The purpose of PerfectPantry is to store and search favorite recipes as well as read articles about cooking tips and tricks." data-repo="https://github.com/ChrisMFernandes/perfectpantry">
+							</div>
+							<div id="perfectplan">
+								<p id="perfectplan-text">PerfectPlan</p>
+								<img class="myImg" src="images/perfectplan.png" alt="My PerfectPlan App!" data-name="PerfectPlan" data-description="An application built with Ruby on Rails and Materialize. Built as a group project for NYCDA WDI and inspired by the local music scene. The purpose of the application is to connect local artists to venues in there area." data-repo="https://github.com/skhoule/nycda-perfectplan">
+							</div>
 					</div>
-			</div>
+
+				</div>
 		</div>
+			<div id="myModal" class="modal">
+  				<span class="close">&times;</span>
+  				<img class="modal-content" id="img01">
+  				<div id="caption">
+  					<h2 id="caption-title"></h2>
+  					<p id="caption-description"></p>
+  					<a id="caption-url" href="#" target="_blank">Check out my GitHub repo</a>
+  				</div>
+			</div>
 		<script type="text/javascript" src="main.js"></script>
 	</body>
 </html>
