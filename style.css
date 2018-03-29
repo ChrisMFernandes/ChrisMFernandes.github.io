@@ -144,6 +144,10 @@ button:hover {
     box-shadow: 5px 10px 8px #000;
 }
 
+#caption-description {
+    font-size: 18px;
+}
+
 #home-icon {
 	margin-left: 60px;
 }
