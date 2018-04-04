@@ -26,8 +26,7 @@ button:hover {
 	background-color: #FFB000;
 	color: white;
     transform: rotateZ(360deg);
-	box-shadow: 5px 10px 8px #000
-}
+    box-shadow: 2px 2px 8px #000;
 
 .sidenav a {
 	font-family: 'Work Sans', sans-serif;
