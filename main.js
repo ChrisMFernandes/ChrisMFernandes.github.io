@@ -23,15 +23,6 @@ let projects = {
 	}
 }
 
-// let data = document.getElementsByClassName('myImg').dataset;
-
-
-// console.log(data);
-
-// console.log(img);
-
-// console.log(featureText);
-
 img.forEach((element) => {
 	element.addEventListener('click', function () {
 		console.log(projects);	
@@ -42,15 +33,7 @@ img.forEach((element) => {
     	let projectInfo = element.dataset.description;
     	captionDesc.innerText = projectInfo;
     	let projectUrl = element.dataset.repo;
-    	captionUrl.href = projectUrl
-
- //    	for(var i in projects){
-
- //    		captionTitle.innerText = projects[i].name ;
- //    		captionDesc.innerText = projects[i].description;
- //    		captionUrl.href = projects[i].repo;
- //    		// captionText.innerHTML = this.alt;
-	// }	
+    	captionUrl.href = projectUrl	
     	})
 })
 
