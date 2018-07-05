@@ -24,7 +24,7 @@ let projects = {
 }
 
 img.forEach((element) => {
-	element.addEventListener('click', function () {
+	element.addEventListener('click', function() {
 		console.log(projects);	
 	    modal.style.display = 'block';
 	    modalImg.src = this.src;
@@ -42,4 +42,3 @@ let span = document.getElementsByClassName("close")[0];
 span.onclick = function() { 
     modal.style.display = 'none';
 }
-
