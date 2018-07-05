@@ -116,7 +116,7 @@ button:hover {
 
 .close:hover,
 .close:focus {
-    color: #bbb;
+    color: #FFB000;
     text-decoration: none;
     cursor: pointer;
 }
@@ -238,6 +238,16 @@ button:hover {
     
     p {
         font-size: 15px;
+    }
+
+    h2 {
+        font-size: 20px;
+    }
+
+    button {
+        height: 50px;
+        font-size: 15px;
+        padding: 2px;
     }
 
 }
