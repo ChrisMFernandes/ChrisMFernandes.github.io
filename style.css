@@ -24,7 +24,7 @@ button {
 }
 
 button:hover {
-	background-color: #FFB000;
+	background-color: #ffb000;
 	color: #f1f1f1;
     transform: rotateY(360deg);
     box-shadow: 2px 2px 8px #000;
@@ -108,7 +108,7 @@ button:hover {
     position: absolute;
     top: 15px;
     right: 35px;
-	color: #f1f1f1;
+	color: #ffb000;
     font-size: 40px;
     font-weight: bold;
     transition: 0.3s;
@@ -116,7 +116,7 @@ button:hover {
 
 .close:hover,
 .close:focus {
-    color: #FFB000;
+    color: #f1f1f1;
     text-decoration: none;
     cursor: pointer;
 }
