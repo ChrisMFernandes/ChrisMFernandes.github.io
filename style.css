@@ -148,6 +148,11 @@ button:hover {
     box-shadow: 5px 10px 8px #000;
 }
 
+.animated {
+    animation-delay: 0.2s;
+    animation-duration: 2s !important;
+}
+
 #caption-url:link {
     color: #FFB000;
 }
