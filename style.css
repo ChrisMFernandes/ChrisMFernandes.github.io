@@ -100,8 +100,6 @@ button:hover {
 .modal-content, #caption {    
     animation-name: zoom;
     animation-duration: 0.8s;
-	animation-name: zoom;
-    animation-duration: 0.8s;
 }
 
 .close {
@@ -148,9 +146,16 @@ button:hover {
     box-shadow: 5px 10px 8px #000;
 }
 
-.animated {
+.animated {;
     animation-delay: 0.2s;
     animation-duration: 2s !important;
+}
+
+#skills {
+    animation-name: illuminate;
+    animation-delay: 0.1s;
+    animation-duration: 1s;
+    /* opacity: 0; */
 }
 
 #caption-url:link {
@@ -236,6 +241,37 @@ button:hover {
     }
 }
 
+/* @keyframes illuminate {
+    0 {
+        opacity: 0;
+
+    }
+
+    25% {
+        opacity: 1;
+        color: #f1f1f1;
+        text-shadow: 2px 4px 4px #000;
+
+    }
+    
+    50% {
+        opacity: 0.5;
+        color: #555555;
+    }
+
+    75% {
+        opacity: 0;
+        color: #f1f1f1;
+        text-shadow: 2px 4px 4px #000;
+    }
+
+    100% {
+        opacity: 1;
+        color: #f1f1f1;
+        text-shadow: 2px 4px 4px #000;
+    }
+} */
+
 @media screen and (max-width: 992px) {
     h1 {
         font-size: 20px;
@@ -253,6 +289,10 @@ button:hover {
         height: 50px;
         font-size: 15px;
         padding: 2px;
+    }
+
+    .project-wrapper {
+        flex-direction: column;
     }
 
 }
